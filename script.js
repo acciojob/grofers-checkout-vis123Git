@@ -12,6 +12,7 @@ const getSum = () => {
     const lastRow = document.createElement("tr");
     const lastCell = document.createElement("td");
     lastCell.colSpan = 2;
+	lastCell.id = 'ans'
     lastCell.textContent = total;
     lastRow.appendChild(lastCell);
     table.appendChild(lastRow);
